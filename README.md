@@ -47,7 +47,7 @@
 
 [2.Usage](#usage)
 
-[3.Example](# example)
+[3.Example](#example)
 
 [4.Link](#link)
 
