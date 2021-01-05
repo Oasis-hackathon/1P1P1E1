@@ -47,8 +47,6 @@ _다른 환경에서도 사용이 가능합니다._
 
 [1.Installation](#installation)
 
-[#install]: #installation	"installation"
-
 [2.Usage](#usage)
 
 [3.Example](#example)
