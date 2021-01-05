@@ -43,11 +43,9 @@ _다른 환경에서도 사용이 가능합니다._
 
 **Table of Contents**
 
-[0. Description](#description)
+[0. Description
 
-[1.Installatio
-
-[Installation]: #installation
+[Installation]: #installation	"installation"
 
 [2.Usage](#usage)
 
