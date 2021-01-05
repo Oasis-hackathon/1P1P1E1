@@ -35,15 +35,15 @@
 * HTML/CSS
 * AJax
 
-이 프로젝트는 Raspberry Pi4용으로  만들어진 프로젝트지만
+_이 프로젝트는 Raspberry Pi4용으로  만들어진 프로젝트지만_
 
-다른 환경에서도 사용이 가능합니다.
+_다른 환경에서도 사용이 가능합니다._
 
 
 
 **Table of Contents**
 
-[1.Installation](#installation)
+[Installation](#installation)
 
 [2.Usage](#usage)
 
@@ -51,7 +51,7 @@
 
 [4.Link](#link)
 
-[5.Known Bugs](#**known-Bugs**)
+[5.Known Bugs](#known-Bugs)
 
 [6.License](#license)
 
