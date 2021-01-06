@@ -22,8 +22,6 @@
 
 - ### Raspberry Pi4
 
-<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/rasp.jpg" alt="rasp" style="zoom: 5%;" />
-
 - ### Google Edge TPU
 
 <img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/coral.jpg" alt="coral" style="zoom:5%;" />
