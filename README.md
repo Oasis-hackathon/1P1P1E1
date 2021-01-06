@@ -1,4 +1,4 @@
-#  **MASK DETECTION SYSTEM**  프로젝트
+#  MASK DETECTION SYSTEM  Project
 
 --------------------------------------
 
