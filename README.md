@@ -22,19 +22,19 @@
 
 - ### Raspberry Pi4
 
-<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/rasp.jpg" alt="rasp" style="zoom: 10%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/rasp.jpg" alt="rasp" style="zoom: 5%;" />
 
 - ### Google Edge TPU
 
-<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/coral.jpg" alt="coral" style="zoom:10%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/coral.jpg" alt="coral" style="zoom:5%;" />
 
 - ### Camera module, Web Cam
 
-<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/camera.jpg" alt="camera" style="zoom:33%;" /><img src="C:\Users\Mangnani\Desktop\img\webcam.jpg" alt="webcam" style="zoom:10%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/camera.jpg" alt="camera" style="zoom:5%;" /><img src="C:\Users\Mangnani\Desktop\img\webcam.jpg" alt="webcam" style="zoom:10%;" />
 
 - ### Speaker
 
-<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/speaker.jpg" alt="speaker" style="zoom:10%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/speaker.jpg" alt="speaker" style="zoom:5%;" />
 
 
 
