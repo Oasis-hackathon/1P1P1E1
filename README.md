@@ -6,7 +6,7 @@
 
 # 0. **Description** 
 
-![img1](https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/DenseNet.png)
+![img1](https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/img1.png)
 
 얼굴인식, 마스크 착용 유무 판단, 글자 인식 등을 이용하여 마스크 미착용자에게 경고 조치를 하는 프로젝트 입니다.
 
@@ -22,11 +22,11 @@
 
 - ### Raspberry Pi4
 
-<img src="C:\Users\Mangnani\Desktop\img\rasp.jpg" alt="rasp" style="zoom: 33%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/rasp.jpg" alt="rasp" style="zoom: 33%;" />
 
 - ### Google Edge TPU
 
-<img src="C:\Users\Mangnani\Desktop\img\coral.jpg" alt="coral" style="zoom:33%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/coral.jpg" alt="coral" style="zoom:33%;" />
 
 - ### Camera module, Web Cam
 
