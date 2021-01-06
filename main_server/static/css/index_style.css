@@ -1,0 +1,43 @@
+html, body{
+    margin: 0;
+}
+
+h1,p{
+    margin: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#main{
+    background: url(img/virus.png) no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    width:  100vw;
+    height: 100vh;
+}
+
+#contents{
+    position: absolute;
+    top: 20%;
+    transform: translateY(-20%);
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#contents h1{
+    font-size: 70px;
+    margin-bottom: 16px;
+}
+
+#contents p{
+    
+    font-size: 23px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+

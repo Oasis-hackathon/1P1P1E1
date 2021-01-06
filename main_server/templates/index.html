@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>함께 이겨네요 코로나!</title>
+    <link rel="stylesheet" href={{ url_for('static', filename="css/index_style.css")}}>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <div id="main">
+        <div id="contents">
+            <h1>마스크, 그것이 최선의 방역입니다.</h1>
+            <p>팀 1+1+1=1의 프로젝트 입니다. </p>
+	    <form method="POST" action="/home">
+	        <button type="submit" class="btn btn-secondary">클릭</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

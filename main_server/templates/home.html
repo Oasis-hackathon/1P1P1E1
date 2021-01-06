@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename="css/style.css")}}
+    <!-- ajax -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="intro_bg">
+        <div class="header" id="link_header">
+          <div class="searchArea">
+            <form>
+              <img src="/static/css/img/emblem02.png" width="200">
+            </form>
+          </div>
+          <ul class="nav">
+            <li><a href="#link_header">HOME</a></li>
+            <li><a href="#link_main_text0">TEAM</a></li>
+            <li><a href="#link_main_text1">VIDEO</a></li>
+            <li><a href="#link_main_text2">Ready to camera</a></li>
+          </ul>
+        </div>
+        <div class="intro_text">
+          <h1>마스크, 그것이 최선의 방역입니다.</h1>
+          <h4 class="contents1">팀 1+1+1=1의 결과물 입니다.</h4>
+        </div>
+      </div>
+      </div>
+      <!-- intro end-->
+      <ul class="amount">
+        <li>
+          <div>
+            <div class="contents1">Active</div>
+            <div class="result"><h5><br></h5><h5>영상 처리 & A.I</h5></div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="contents1">GitHub</div>
+            <div class="result"><h5>
+              <br><a href="https://github.com/rnjschd94/MASK_DETECTION_SYSTEM"  >
+              <span style="color: rgb(165, 58, 207);">Link  </span></a> 
+            </h5></div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <div class="contents1">QnA</div>
+            <div class="result">
+              <h5><br>younjung1996@gmail.com
+              </h5>
+              </div>
+          </div>
+        </li>
+        <li>
+            <div>
+              <div class="contents1">School</div>
+              <div class="result"><h5><br>Chosun-University</h5></div>
+            </div>
+        </li>
+      </ul>
+      <!-- amount end -->
+
+      <div class="main_text0" id="link_main_text0">
+        <h1>TEAM</h1>
+        <div class="contents1">팀원 역할</div>
+        
+        <ul class="icons">
+          <li>
+            <div class="icon_img">
+              <img src="/static/css/img/Pencil.png" width="50">
+            </div>
+            <div class="contents1_bold">공우성</div>
+            <div class="contents2">
+                " simple is best "
+            </div>
+            <div class="more">
+              디자이너
+            </div>
+          </li>
+
+          <li>
+            <div class="icon_img">
+              <img src="/static/css/img/Notebook.png" width="50">
+            </div>
+            <div class="contents1_bold">권성준</div>
+            <div class="contents2">
+                "기획은 내가 한다."
+            </div>
+            <div class="more">
+              기획자
+            </div>
+          </li>
+
+          <li>
+            <div class="icon_img">
+              <img src="/static/css/img/Spanner.png" width="50">
+            </div>
+            <div class="contents1_bold">윤정선</div>
+            <div class="contents2">
+                " 항상 엣지가 중요하다 "
+            </div>
+            <div class="more">
+              개발자
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main_text1" id="link_main_text1">
+        <h1>영상 설정</h1>
+        <div class="contents1">움직여주세요</div>
+        <div class="service">
+          <img src="{{ url_for('video_feed') }}" width="480px" height="480px">
+          <div class="food_photo">  
+          </div>
+          
+          <div class="contents2">
+
+                        
+                        <button type="submit" id="button2" value=2>▲</button>
+                        <br>
+                        <button type="submit" id="button0" value=0>◀</button>
+                        <button type="submit" id="button3" value=3>▼</button>
+                        <button type="submit" id="button1" value=1>▶</button>
+                        <br><br>
+			<form action="/cam2" method="POST">
+	                        <button type="submit">
+        	                  <img src="/static/css/img/mask2.png" width="60">
+                	        </button>
+                        </form>
+                        <br><br>
+                        <button type="submit" id="button4" value=4 >Pan Reset</button>
+                        <br><br>
+                        <button type="submit" id="button5" value=5>Tilt Reset</button>
+                        <select name="job" id="select">
+                          <option value="">camera1</option>
+                          <option value="">camera2</option>
+                          <option value="">camera3</option>
+                      </select>
+                             
+          </div>
+        </div>
+      </div>
+                  <script>
+			  $('#button0').click(function(){
+				var id = $('#button0').val();
+				var postdata = {'id': id}
+				$.ajax({type :'POST', 
+					url : '{{url_for("ajax")}}', 
+					data : JSON.stringify(postdata),
+					dataType : 'JSON',
+					contentType:"application/json",
+					//success : function(data){alert(data.result2['id'])},
+					error : function(request, status, error){alert(request, error,status)}		
+					})
+				})
+
+			  $('#button1').click(function(){
+				var id = $('#button1').val();
+				var postdata = {'id': id}
+				$.ajax({type :'POST', 
+					url : '{{url_for("ajax")}}', 
+					data : JSON.stringify(postdata),
+					dataType : 'JSON',
+					contentType:"application/json",
+					//success : function(data){alert(data.result2['id'])},
+					error : function(request, status, error){alert(request, error,status)}		
+					})
+				})
+
+			  $('#button2').click(function(){
+				var id = $('#button2').val();
+				var postdata = {'id': id}
+				$.ajax({type :'POST', 
+					url : '{{url_for("ajax")}}', 
+					data : JSON.stringify(postdata),
+					dataType : 'JSON',
+					contentType:"application/json",
+					//success : function(data){alert(data.result2['id'])},
+					error : function(request, status, error){alert(request, error,status)}		
+					})
+				})
+
+			  $('#button3').click(function(){
+				var id = $('#button3').val();
+				var postdata = {'id': id}
+				$.ajax({type :'POST', 
+					url : '{{url_for("ajax")}}', 
+					data : JSON.stringify(postdata),
+					dataType : 'JSON',
+					contentType:"application/json",
+					//success : function(data){alert(data.result2['id'])},
+					error : function(request, status, error){alert(request, error,status)}		
+					})
+				})
+
+			  $('#button4').click(function(){
+				var id = $('#button4').val();
+				var postdata = {'id': id}
+				$.ajax({type :'POST', 
+					url : '{{url_for("ajax")}}', 
+					data : JSON.stringify(postdata),
+					dataType : 'JSON',
+					contentType:"application/json",
+					//success : function(data){alert(data.result2['id'])},
+					error : function(request, status, error){alert(request, error,status)}		
+					})
+				})
+
+			  $('#button5').click(function(){
+				var id = $('#button5').val();
+				var postdata = {'id': id}
+				$.ajax({type :'POST', 
+					url : '{{url_for("ajax")}}', 
+					data : JSON.stringify(postdata),
+					dataType : 'JSON',
+					contentType:"application/json",
+					//success : function(data){alert(data.result2['id'])},
+					error : function(request, status, error){alert(request, error,status)}		
+					})
+				})
+
+
+
+
+
+
+                  </script> 
+
+
+
+<div class="main_text2" id="link_main_text2">
+  <ul>
+    <li>
+              
+          </li>
+        </ul>
+
+      </div>
+      
+    </li>
+    <li></li>
+  </ul>
+</div>
+
+<div class="footer">
+  <div>
+    <img src="/static/css/img/emblem01.jpg" width="150">
+  </div>
+  
+  <div>
+    팀.  1+1+1=1  <br>
+    Addr. 광주광역시 동구 조선대학교 IT융합대학 8층  <br>
+    
+    오아시스 해커톤 대회 
+  </div>
+</div>
+</div>
+</body>
+</html>
