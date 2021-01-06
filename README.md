@@ -30,11 +30,11 @@
 
 - ### Camera module, Web Cam
 
-<img src="C:\Users\Mangnani\Desktop\img\camera.jpg" alt="camera" style="zoom:33%;" /><img src="C:\Users\Mangnani\Desktop\img\webcam.jpg" alt="webcam" style="zoom:10%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/camera.jpg" alt="camera" style="zoom:33%;" /><img src="C:\Users\Mangnani\Desktop\img\webcam.jpg" alt="webcam" style="zoom:10%;" />
 
 - ### Speaker
 
-<img src="C:\Users\Mangnani\Desktop\img\speaker.jpg" alt="speaker" style="zoom:10%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/speaker.jpg" alt="speaker" style="zoom:10%;" />
 
 
 
@@ -80,29 +80,29 @@
 
 ### main page
 
-<img src="C:\Users\Mangnani\Desktop\img\img1.png" alt="img1" style="zoom: 33%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/img1.png" alt="img1" style="zoom: 33%;" />
 
 
 
 ### monitor 상단 page
 
-<img src="C:\Users\Mangnani\Desktop\img\img2.png" alt="img2" style="zoom:33%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/img2.png" alt="img2" style="zoom:33%;" />
 
 
 
 ### monitor  page & Controll
 
-![img3](C:\Users\Mangnani\Desktop\img\img3.png)
+![img3](https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/img3.png)
 
 ### Mask Detect A.I  page
 
-<img src="C:\Users\Mangnani\Desktop\img\img4.png" alt="img4" style="zoom:33%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/img4.png" alt="img4" style="zoom:33%;" />
 
 # 3. Execute
 
 > python3 main_server.py
 
-![algo](C:\Users\Mangnani\Desktop\img\algo.png)
+![algo](https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/algo.png)
 
 
 
@@ -110,7 +110,7 @@
 
 > Keras Convoluton Network Train & Validation Result
 
-<img src="C:\Users\Mangnani\Desktop\img\mobileNetV2.png" alt="mobileNetV2" style="zoom: 33%;" /><img src="C:\Users\Mangnani\Desktop\img\ResNet.png" alt="ResNet" style="zoom: 33%;" /><img src="C:\Users\Mangnani\Desktop\img\DenseNet.png" alt="DenseNet" style="zoom: 33%;" />
+<img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/mobileNetV2.png" alt="mobileNetV2" style="zoom: 33%;" /><img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/ResNet.png" alt="ResNet" style="zoom: 33%;" /><img src="https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/DenseNet.png" alt="DenseNet" style="zoom: 33%;" />
 
 
 
@@ -120,11 +120,11 @@
 
 ## distance : 1m
 
-![result1](C:\Users\Mangnani\Desktop\img\result1.png)
+![result1](https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/result1.png)
 
 ## distance : 5m
 
-![result](C:\Users\Mangnani\Desktop\img\result.png)
+![result](https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/result.png)
 
 
 
