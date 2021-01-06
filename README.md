@@ -6,7 +6,7 @@
 
 # 0. **Description** 
 
-![img1](C:\Users\Mangnani\Desktop\img\img1.png)
+![img1](https://github.com/Oasis-hackathon/1P1P1E1/blob/master/img/DenseNet.png)
 
 얼굴인식, 마스크 착용 유무 판단, 글자 인식 등을 이용하여 마스크 미착용자에게 경고 조치를 하는 프로젝트 입니다.
 
